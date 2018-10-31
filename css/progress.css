@@ -1,0 +1,74 @@
+
+.line{
+    height: 20px;
+    min-width: 200px;
+    margin: 0 auto 10px;
+    line-height: 20px;
+    color:red !important;
+    position: relative;
+    z-index: 15;
+}
+
+.line:before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    top:0;
+    z-index: 5;
+    color:red;
+    background-color: grey;
+}
+
+.line:after{
+    content: '';
+    background-color: #ffc823;
+    height: 20px;
+    transition: 0.8s;
+    display: block;
+    width: 100%;
+    animation:  animate 10 10s;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 10;
+    color:red;
+}
+
+.line90:after{
+    max-width: 90%;
+}
+
+.line98:after{
+    max-width: 98%;
+}
+
+.line50:after{
+    max-width: 50%;
+}
+
+.line75:after{
+    max-width: 75%;
+}
+
+.line60:after{
+    max-width: 60%;
+}
+
+.line100:after{
+    max-width: 100%;
+}
+
+.line65:after{
+    max-width: 65%;
+}
+
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
