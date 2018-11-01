@@ -138,6 +138,11 @@ header {
     box-shadow: 2px -5px 15px black;
 }
 
+.experiencias a{
+    font-size: 16px;
+    color: #ffc823;
+}
+
 .experiencias .img{
     max-width: 350px;
     margin: 5px 20px;
