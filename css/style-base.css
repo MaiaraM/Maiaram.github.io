@@ -139,8 +139,8 @@ header {
 }
 
 .experiencias a{
-    font-size: 16px;
-    color: #ffc823;
+    font-size: 16px !important;
+    color: #ffc823 !important;
 }
 
 .experiencias .img{
