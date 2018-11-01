@@ -51,20 +51,27 @@ header {
 
 .content{
     position: fixed;
-    top:30%;
-    width: 50%;
+    top: 65%;
+    width: 60%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .content{
-         width: 80%;}
+         width: 85%;
+         top: 30%;
+        }
+    .content p{
+        font-size: 14px;
+    }     
 }
 
 
 .content p{
     background: rgba(0, 0, 0, 0.9);
     color: #f1f1f1;
+    font-size: 16px;
     padding: 20px 30px 20px 20%;
+    text-shadow: #ffc823 2px 2px 2px ;
     
 }
 
@@ -109,6 +116,13 @@ header {
     padding: 0 10px 35px 15px !important;
 }
 
+.profissional p{
+    padding: 10px;
+}
+
+.profissional .panel{
+    cursor: pointer;
+}
 
 
 /*-----------------------------------------------------------*/
